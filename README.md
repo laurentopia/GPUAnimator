@@ -36,7 +36,7 @@ Mesh Animation bakes vertex positions for each frame of animation to texture. Cu
 4. Assign generated material to gameObject.
 5. Add `MeshAnimator` component to gameObject.
 6. Play animation from code.
-7. Add TestGPUAnimator.cs which will call DoUpdate(float deltaTime) on MeshAnimator. Assumption is you write your own.
+7. Add TestMeshAnimator.cs which will call DoUpdate(float deltaTime) on MeshAnimator. Assumption is you write your own.
 ```c#
 gameObject.GetComponent<MeshAnimator>().Play("Zombie Walking");
 ```
