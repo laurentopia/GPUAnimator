@@ -1,3 +1,6 @@
+# GPU Animator
+A forked expansion of Mesh Animation. Still getting set up...
+
 # Mesh Animation [![Github license](https://img.shields.io/github/license/codewriter-packages/Mesh-Animation.svg)](#)
 Mesh Animation is lightweight library for rendering hundreds of meshes in one draw call with GPU instancing.
 
