@@ -1,5 +1,5 @@
 # GPU Animator
-A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation). Mesh Animation is lightweight library for rendering hundreds of meshes in one draw call with GPU instancing.
+A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing by [VladV](https://github.com/vanifatovvlad)
 
 [VladV](https://github.com/vanifatovvlad)'s work on Mesh Animation is a perfect lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
 
@@ -12,7 +12,7 @@ A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Me
 Issues
 - Currently no support for non-looping anims. All animations will loop.
 - The Unlit shader is not currently compatible with the above changes.
-- There is an older Asset Store package called Mesh Animator. I would like to rename this whole thing to GPUAnimator, but I didn't want to break the diffing or make pull requests disorganized.
+- There is an older Asset Store package called Mesh Animator. I would like to rename this whole thing to GPUAnimator, but I didn't want to break the diffing or make pull requests disorganized yet.
 - You will need to write your own code to call DoUpdate on each MeshAnimator. I may include something for this like a Manager script.
 
 #### NOTE: To use MeshAnimation library you need to install [Tri Inspector](https://github.com/codewriter-packages/Tri-Inspector) - Free and open-source library that improves unity inspector.
