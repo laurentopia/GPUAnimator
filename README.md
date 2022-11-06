@@ -15,9 +15,15 @@ Issues
 - There is an older Asset Store package called Mesh Animator. I would like to rename this whole thing to GPUAnimator, but I didn't want to break the diffing or make pull requests disorganized yet.
 - You will need to write your own code to call DoUpdate on each MeshAnimator. I may include something for this like a Manager script.
 
-#### NOTE: To use MeshAnimation library you need to install [Tri Inspector](https://github.com/codewriter-packages/Tri-Inspector) - Free and open-source library that improves unity inspector.
+# INSTALLATION
 
-## How it works?
+1. First, you need to install [Tri Inspector](https://github.com/codewriter-packages/Tri-Inspector) - Free and open-source library that improves unity inspector.
+2. Make sure after installing Tri Inspector to run the installation package in its instructions. 
+3. If you still get compile errors at that point, reimport the Tri Inspector folder in the Project window.
+4. With Tri Inspector installed, put https://github.com/benthroop/GPUAnimator.git into Unity Package Manager.
+5. Done.
+
+## How's it work?
 Mesh Animation bakes vertex positions for each frame of animation to texture. Custom shader then move mesh vertexes to desired positions on GPU. This allows draw the same original mesh multiple times with GPU Instancing. Unique animation parameters are overridden for each instance with Material Property Block.
 
 ## Limitations
