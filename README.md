@@ -1,4 +1,4 @@
-# GPU Animator [![Github license]](#)
+# GPU Animator [[Github license]](#)
 A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation). Mesh Animation is lightweight library for rendering hundreds of meshes in one draw call with GPU instancing.
 
 [VladV](https://github.com/vanifatovvlad)'s work on Mesh Animation is a perfect lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
@@ -37,9 +37,6 @@ Mesh Animation bakes vertex positions for each frame of animation to texture. Cu
 5. Add `MeshAnimator` component to gameObject.
 6. Play animation from code.
 7. Add TestMeshAnimator.cs which will call DoUpdate(float deltaTime) on MeshAnimator. Assumption is you write your own.
-```c#
-gameObject.GetComponent<MeshAnimator>().Play("Zombie Walking");
-```
 <br>
 
 [![Mesh Animation](https://user-images.githubusercontent.com/26966368/92770369-90559200-f3a2-11ea-9f1f-37719a0637c7.png)](#)
