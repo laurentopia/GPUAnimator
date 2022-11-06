@@ -17,10 +17,10 @@ Issues
 
 # INSTALLATION
 
-1. First, you need to install [Tri Inspector](https://github.com/codewriter-packages/Tri-Inspector) - Free and open-source library that improves unity inspector.
+1. First, you need to install [Tri Inspector](https://github.com/codewriter-packages/Tri-Inspector) - Free and open-source library also by VladV which provides a number of interesting Inspector features, similar to Odin. It's used mostly in the Bake UI.
 2. Make sure after installing Tri Inspector to run the installation package in its instructions. 
 3. If you still get compile errors at that point, reimport the Tri Inspector folder in the Project window.
-4. With Tri Inspector installed, put https://github.com/benthroop/GPUAnimator.git into Unity Package Manager.
+4. With Tri Inspector installed, put https://github.com/benthroop/GPUAnimator.git into Unity Package Manager to install this package.
 5. Done.
 
 ## How's it work?
