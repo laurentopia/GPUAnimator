@@ -1,4 +1,4 @@
-# GPU Animator [[Github license]](#)
+# GPU Animator
 A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation). Mesh Animation is lightweight library for rendering hundreds of meshes in one draw call with GPU instancing.
 
 [VladV](https://github.com/vanifatovvlad)'s work on Mesh Animation is a perfect lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
