@@ -2,9 +2,10 @@
 
 ![RunSheep](https://user-images.githubusercontent.com/3117959/200225759-bc851932-d70b-4323-a906-276a0d123c32.gif)
 
-A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing by [VladV](https://github.com/vanifatovvlad)
+## A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) by [VladV](https://github.com/vanifatovvlad), a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing. 
+<br>
 
-[VladV](https://github.com/vanifatovvlad)'s work on Mesh Animation is a perfect lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
+[Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) is a wonderful lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
 
 - Shader now receives time as a property block parameter instead of using _Time in the shader for more control at runtime.
 - To step time, call MeshAnimator.DoUpdate(float deltaTime). Lets you batch updates and/or update less frequently. 
