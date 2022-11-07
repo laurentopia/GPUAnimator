@@ -38,8 +38,8 @@ namespace CodeWriter.MeshAnimation
         
         [ReadOnly]
         [SerializeField] float weight;
-        
-        public float speedMultiplier;
+
+        public float speedMultiplier = 1f;
         
         private void Awake()
         {
@@ -52,7 +52,6 @@ namespace CodeWriter.MeshAnimation
         {
             RandomizeTime();
             weight = 0f;
-            speedMultiplier = 1f;
 
             if (startingClip == null)
             {

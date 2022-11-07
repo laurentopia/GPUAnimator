@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using CodeWriter.MeshAnimation;
 using TriInspector;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [DrawWithTriInspector]
 public class TestMeshAnimator : MonoBehaviour
@@ -13,15 +15,20 @@ public class TestMeshAnimator : MonoBehaviour
 
     public AnimationClip animOne;
     public AnimationClip animTwo;
-    
+
+    private void Start()
+    {
+        anim.speedMultiplier += Random.Range(-.25f, .25f);
+    }
+
     [Button]
     public void PlayRandomAnimWithCrossfade()
     {
         var ridx = Random.Range(0, anim.Asset.GetAnimationCount());
         var clip = anim.Asset.GetClipByIndex(ridx);
         anim.PlayClipWithCrossfade(clip);
-        Debug.Log($"Playing {clip.name}");
     }
+    
     [Button]
     public void PlayAnimOne()
     {
@@ -36,6 +43,7 @@ public class TestMeshAnimator : MonoBehaviour
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R)){ PlayRandomAnimWithCrossfade();}
         if (animate){ anim.DoUpdate(Time.smoothDeltaTime); }
     }
 }
