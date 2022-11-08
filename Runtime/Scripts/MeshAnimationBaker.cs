@@ -191,7 +191,7 @@ namespace CodeWriter.MeshAnimation
                 var texWidth = asset.npotBakedTexture ? vertexCount : Mathf.NextPowerOfTwo(vertexCount);
                 var textHeight = asset.npotBakedTexture ? framesCount : Mathf.NextPowerOfTwo(framesCount);
 
-                var texture = new Texture2D(texWidth, textHeight, TextureFormat.RGBAFloat, false, true)
+                var texture = new Texture2D(texWidth, textHeight, TextureFormat.RGB24, false, true)
                 {
                     name = asset.name + " Texture",
                     hideFlags = HideFlags.NotEditable,
