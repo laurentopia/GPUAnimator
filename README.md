@@ -1,8 +1,9 @@
-# GPU Animator
+# GPU Animator ASE Edition
 
 ![RunSheep](https://user-images.githubusercontent.com/3117959/200225759-bc851932-d70b-4323-a906-276a0d123c32.gif)
 
-## A forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) by [VladV](https://github.com/vanifatovvlad), a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing. 
+## A forked expansion of [GPUAnimation](https://github.com/benthroop/GPUAnimator) by [benthroop](https://github.com/benthroop) which adds ASE support
+## GPUAnimation is itself a forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) by [VladV](https://github.com/vanifatovvlad), a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing. 
 <br>
 
 [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) is a wonderful lightweight implementation and pipeline for GPU/Shader animation. For my purposes I am expanding it and changing some approaches, so here it is. 
