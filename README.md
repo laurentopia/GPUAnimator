@@ -2,7 +2,7 @@
 
 ![RunSheep](https://user-images.githubusercontent.com/3117959/200225759-bc851932-d70b-4323-a906-276a0d123c32.gif)
 
-## A forked expansion of [GPUAnimation](https://github.com/benthroop/GPUAnimator) by [benthroop](https://github.com/benthroop) which adds ASE support
+## A fork of [GPUAnimation](https://github.com/benthroop/GPUAnimator) by [benthroop](https://github.com/benthroop) which adds ASE support (for now).
 ## GPUAnimation is itself a forked expansion of [Mesh Animation](https://github.com/codewriter-packages/Mesh-Animation) by [VladV](https://github.com/vanifatovvlad), a lightweight library for rendering hundreds of meshes in one draw call with GPU instancing. 
 <br>
 
