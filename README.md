@@ -48,7 +48,7 @@ Mesh Animation bakes vertex positions for each frame of animation to texture. Cu
 5. Add `MeshAnimator` component to gameObject.
 6. Play animation from code.
 7. Add TestMeshAnimator.cs which will call DoUpdate(float deltaTime) on MeshAnimator. Assumption is you write your own.
-8. To use the VAT function into ASE, switch vertex output to Absolute then drop the VAT function and connect it to local vertex offset
+8. To use the VAT function into ASE, switch vertex output to Absolute then drop the VAT function and connect it to local vertex offset. A **GPU ANIMATION (VAT)** toggle will appear that'll toggle VAT on.
 ![image](https://github.com/user-attachments/assets/383f8598-d48b-4b91-968b-6adf1736b4a0)
 ![image](https://github.com/user-attachments/assets/b147966f-65a4-448d-858d-401be723653a)
 
